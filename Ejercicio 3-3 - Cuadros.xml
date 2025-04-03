@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Sergio Familiar
+Curso: DAW1
+Fecha: 26/03/2025
+Ejercicio: 3
+-->
+<!DOCTYPE cuadros [
+    <!ELEMENT cuadros (cuadro*)>
+    <!ELEMENT cuadro EMPTY>
+    <!ATTLIST cuadro 
+        titulo ID #REQUIRED
+        autor CDATA #REQUIRED
+    >
+]>
+<cuadros>
+    <cuadro titulo="Adán_y_Eva" autor="Alberto Durero" />
+    <cuadro titulo="Adán_y_Eva_2" autor="Lucas Cranach, el viejo" />
+</cuadros>
